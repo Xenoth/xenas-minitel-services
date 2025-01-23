@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  cache:
+    image: redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    command: 'redis-server --loglevel warning'
+    volumes: 
+      - cache:/data
+
+  iss-service:
+    build:
+      context: ./iss-service
+      dockerfile: dockerfile
+    container_name: iss-container
+    volumes:
+      - ./logs/iss:/var/log
+    restart: unless-stopped
+    depends_on:
+      - cache
+    links:
+      - cache
+    environment:
+      REDIS_HOST: cache
+      REDIS_PORT: 6379
+
+  helldivers-service:
+    build:
+      context: ./helldivers-service
+      dockerfile: dockerfile
+    container_name: helldivers-container
+    volumes:
+      - ./logs/helldivers:/var/log
+    restart: unless-stopped
+    depends_on:
+      - cache
+    links:
+      - cache
+    environment:
+      REDIS_HOST: cache
+      REDIS_PORT: 6379
+
+  xenas-service:
+    build:
+      context: ./xenas-service
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - cache
+      - helldivers-service
+      - iss-service
+    ports:
+      - '8083:8083'
+    links:
+      - cache
+    environment:
+      REDIS_HOST: cache
+      REDIS_PORT: 6379
+
+volumes:
+  cache:
+    driver: local

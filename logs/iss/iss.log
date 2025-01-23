@@ -1,0 +1,149 @@
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Traceback (most recent call last):
+  File "/app/iss.py", line 27, in <module>
+    add_item(redis=redis_inst, value=json.dumps(data), ttl=TIME_OF_LIFE)
+TypeError: add_item() got an unexpected keyword argument 'redis'
+Item added : ISS:item1 = {"message": "success", "timestamp": 1737619802, "iss_position": {"longitude": "-119.0202", "latitude": "-2.3959"}} (expires is 6000s)
+Item added : ISS:item2 = {"message": "success", "timestamp": 1737620402, "iss_position": {"longitude": "-94.3995", "latitude": "-31.5203"}} (expires is 6000s)
+Item added : ISS:item3 = {"message": "success", "timestamp": 1737621002, "iss_position": {"longitude": "-51.0088", "latitude": "-50.6483"}} (expires is 6000s)
+Item added : ISS:item4 = {"message": "success", "timestamp": 1737621601, "iss_position": {"longitude": "3.4759", "latitude": "-43.1680"}} (expires is 6000s)
+Item added : ISS:item5 = {"message": "success", "timestamp": 1737622202, "iss_position": {"longitude": "34.8426", "latitude": "-17.0633"}} (expires is 6000s)
+Item added : ISS:item6 = {"message": "success", "timestamp": 1737622803, "iss_position": {"longitude": "56.9890", "latitude": "13.0963"}} (expires is 6000s)
+Item added : ISS:item7 = {"message": "success", "timestamp": 1737623405, "iss_position": {"longitude": "86.1971", "latitude": "40.3966"}} (expires is 6000s)
+Item added : ISS:item8 = {"message": "success", "timestamp": 1737624002, "iss_position": {"longitude": "138.4031", "latitude": "51.4040"}} (expires is 6000s)
+Item added : ISS:item9 = {"message": "success", "timestamp": 1737624604, "iss_position": {"longitude": "-174.4966", "latitude": "34.6838"}} (expires is 6000s)
+Item added : ISS:item10 = {"message": "success", "timestamp": 1737625201, "iss_position": {"longitude": "-148.7142", "latitude": "6.1871"}} (expires is 6000s)
+Item added : ISS:item11 = {"iss_position": {"latitude": "-35.6115", "longitude": "-160.0627"}, "message": "success", "timestamp": 1737637204} (expires is 6000s)
+Item added : ISS:item12 = {"iss_position": {"latitude": "-51.4923", "longitude": "-112.6403"}, "message": "success", "timestamp": 1737637802} (expires is 6000s)
+Item added : ISS:item11 = {"iss_position": {"latitude": "-39.8147", "longitude": "-61.0125"}, "message": "success", "timestamp": 1737638401} (expires is 6000s)
+Item added : ISS:item12 = {"iss_position": {"latitude": "-12.3769", "longitude": "-32.2562"}, "message": "success", "timestamp": 1737639004} (expires is 6000s)
+Item added : ISS:item13 = {"iss_position": {"latitude": "17.6299", "longitude": "-10.1981"}, "message": "success", "timestamp": 1737639601} (expires is 6000s)
+Item added : ISS:item11 = {"iss_position": {"latitude": "50.3960", "longitude": "76.9433"}, "message": "success", "timestamp": 1737640804} (expires is 6000s)
+Item added : ISS:item12 = {"iss_position": {"latitude": "30.7463", "longitude": "119.4920"}, "message": "success", "timestamp": 1737641401} (expires is 6000s)
+Item added : ISS:item13 = {"iss_position": {"latitude": "1.4666", "longitude": "143.8963"}, "message": "success", "timestamp": 1737642001} (expires is 6000s)
+Item added : ISS:item14 = {"iss_position": {"latitude": "-28.0831", "longitude": "167.5154"}, "message": "success", "timestamp": 1737642601} (expires is 6000s)
+Item added : ISS:item15 = {"iss_position": {"latitude": "-49.4303", "longitude": "-152.3533"}, "message": "success", "timestamp": 1737643202} (expires is 6000s)
+Item added : ISS:item16 = {"iss_position": {"latitude": "-45.5827", "longitude": "-96.4955"}, "message": "success", "timestamp": 1737643801} (expires is 6000s)

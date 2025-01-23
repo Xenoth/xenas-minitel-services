@@ -1,0 +1,26 @@
+FROM python:3.11
+
+# Set working directory
+WORKDIR /app
+
+# Install cron and other necessary packages
+RUN apt-get update && \
+    apt-get install -y cron && \
+    ln -sf $(which python3) /usr/bin/python3 && \
+    rm -rf /var/lib/apt/lists/*
+    
+# Copy the service script
+COPY iss.py /app/iss.py
+COPY requirements.txt /app/requirements.txt
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the crontab file and setup cron
+COPY iss-service-cron /etc/cron.d/iss-service-cron
+RUN chmod 0644 /etc/cron.d/iss-service-cron && \
+    crontab /etc/cron.d/iss-service-cron && \
+    touch /var/log/cron.log
+
+# Start the cron service
+CMD ["cron", "-f"]

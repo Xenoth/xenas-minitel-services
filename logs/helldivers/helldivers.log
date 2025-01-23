@@ -1,0 +1,242 @@
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
+Traceback (most recent call last):
+  File "/app/helldivers.py", line 23, in <module>
+    redis_inst.set(KEY_CAMPAIGNS, data)
+  File "/usr/local/lib/python3.9/site-packages/redis/commands/core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 567, in _execute_command
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 568, in <lambda>
+    lambda: self._send_command_parse_response(
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 541, in _send_command_parse_response
+    conn.send_command(*args, **options)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 557, in send_command
+    self._command_packer.pack(*args),
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 107, in pack
+    for arg in map(self.encode, args):
+  File "/usr/local/lib/python3.9/site-packages/redis/_parsers/encoders.py", line 29, in encode
+    raise DataError(
+redis.exceptions.DataError: Invalid input of type: 'list'. Convert to a bytes, string, int or float first.
