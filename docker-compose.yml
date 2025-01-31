@@ -42,6 +42,22 @@ services:
       REDIS_HOST: cache
       REDIS_PORT: 6379
 
+  haikus-service:
+    build:
+      context: ./haikus-service
+      dockerfile: dockerfile
+    container_name: haikus-container
+    volumes:
+      - ./logs/haikus:/var/log
+    restart: unless-stopped
+    depends_on:
+      - cache
+    links:
+      - cache
+    environment:
+      REDIS_HOST: cache
+      REDIS_PORT: 6379
+
   xenas-service:
     build:
       context: ./xenas-service
@@ -51,6 +67,7 @@ services:
       - cache
       - helldivers-service
       - iss-service
+      - haikus-service
     ports:
       - '8083:8083'
     links:

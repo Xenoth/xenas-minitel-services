@@ -7,6 +7,7 @@ Basic description of the infrastructure:
 * xenas-service: main server handling Minitels clients;
 * helldivers-service: Pulling data regularly from https://github.com/helldivers-2/api;
 * iss-service: Pulling data regularly from http://api.open-notify.org.
+* haikus-service: Pulling data daily from https://calendhaiiku.com/.
 
 # Requirements 
 * docker;
